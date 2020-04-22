@@ -96,12 +96,13 @@ class ProcessController extends Controller
 
 
        $centers=Center::all();
+       $districts=District::all();
        
 
 
 
 
-       return view('process.center',['centers'=>$centers]);
+       return view('process.center',['centers'=>$centers,'districts'=>$districts]);
       
     }
 }

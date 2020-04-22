@@ -50,18 +50,18 @@
                         <select id="mylist" onchange="myFunction()" class='form-control js-example-basic-single'>
                             <option value=""> {{__('customlang.select_here')}}</option>
                     
-                            @foreach($centers as $center)
-                        <option>{{$center->District->name}}</option>
+                            @foreach($districts as $district)
+                        <option>{{$district->name}}</option>
                         @endforeach   
                         </select> 
                      
-                            <table  class="table table-striped"  id="myTable" >
+                            <table  class="table table-striped table-sm table-hover table-borderless"  id="myTable" >
                                 <thead>
                     <tr>
                                    
-                                    <th scope="col">Center name</th>
-                                    <th scope="col">District</th>
-                                    <th scope="col">Contact</th>
+                                    <th >Center name</th>
+                                    <th >District</th>
+                                    <th >Contact</th>
                                    
                                 
                            
