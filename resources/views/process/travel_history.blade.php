@@ -81,7 +81,7 @@
 
 
 
-                <div data-aos="fade-up" data-aos-delay="100" >
+                <div>
 
                 <p>  <label   for="travel_history">{{__('customlang.t_p1')}} ?</label></p>
                     
@@ -115,7 +115,7 @@
 
                  
 
-                    <div id="text" style="display:none;pading:20px" >
+                    <div class="light"  id="text" style="display:none;pading:20px" >
 
                         <hr>
 
@@ -397,7 +397,7 @@
                   
                        
                       
-                        <label class="text-dark" for="travel_history">{{__('customlang.t_p2')}} ?</label></p>
+                        <label class="text-dark" for="travel_history">{{__('customlang.t_p2')}} </label></p>
                     
                       
                        
@@ -418,7 +418,7 @@
 
                        <hr>
                         
-                        <label class="text-dark" for="travel_history">{{__('customlang.t_p3')}} ?</label></p>
+                        <label class="text-dark" for="travel_history">{{__('customlang.t_p3')}} </label></p>
                     
                       
                        

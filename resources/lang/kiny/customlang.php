@@ -82,13 +82,13 @@ Hitamo ibimenyetso byose waba ufite",
 
 'C_title'=>"Ibijyanye nabo mwahuye",
 'c_head'=>"Subiza ibibazo bikurikira bijyanye nabo mwahuye",
-'C_p1'=>"Hari umuntu mwaba mwarahuye ufite ibimetso bya corona virus cg uyirwaye ",
+'c_p1'=>"Hari umuntu mwaba mwarahuye ufite ibimetso bya corona virus cg uyirwaye ",
 //details
 
 
 'd_title'=>"Amakuru y'ingenzi",
 
-'d_head'=>"Mu rwego rwo kurwanya ikwirakwira ry'icyorezo , mubishaka mwaduha imyirondoro yabo mwajyanye cg mwazanye muzi ubwo mu heruka mu mahanga.",
+'d_head'=>"Mu rwego rwo kurwanya ikwirakwira ry'icyorezo ,  mwaduha imyirondoro yabo mwajyanye cg mwazanye muzi ubwo mu heruka mu mahanga.",
 'd_email'=>'Imeli',
 'd_name'=>'Amazina',
 'd_phone'=>'Numero ya telephone',
@@ -108,7 +108,7 @@ wabimenyesha ababishinzwe ku miromgo ikurikira',
 
 
 
-'back'=>'subira inyumba',
+'back'=>'Subira inyuma',
 
 
 'select_here'=>'Shaka akarere hano ................',

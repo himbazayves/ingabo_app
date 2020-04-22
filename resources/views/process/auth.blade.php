@@ -194,7 +194,7 @@
                var id = response['data'][i].id;
                var name = response['data'][i].name;
   
-               var option = "<option value='"+id+"'>"+name+"</option>"; 
+               var option = "<option value='"+name+"'>"+name+"</option>"; 
   
                $("#sector").append(option); 
              }

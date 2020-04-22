@@ -161,7 +161,7 @@
 
     <center>
     
-        <p style="margin-top:10px" data-aos="fade-up" data-aos-delay="300"><a href="{{route('process.auth')}}" class="btn btn-success py-3 px-5 btn-pill">       {{__('customlang.restart')}}</a> <button type="submit" class="btn btn-primary py-3 px-5 btn-pill">     {{__('customlang.f_tips')}}   </button></p>
+        <p style="margin-top:10px"><a href="{{route('process.auth')}}" class="btn btn-success py-3 px-5 btn-pill">       {{__('customlang.restart')}}</a> <button type="submit" class="btn btn-primary py-3 px-5 btn-pill">     {{__('customlang.f_tips')}}   </button></p>
       
        
       </center>   
