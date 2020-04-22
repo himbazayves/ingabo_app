@@ -107,14 +107,14 @@
 
 
 
-                     <p> {{__('customlang.f_p')}} </p>
+                     <p> {{__('customlang.f_p')}} :</p>
 
 
                      <p>  <h5><strong>Phone: 114</strong> </h5>
                       <h5><strong>WhatsAPP: +250  788 202 080 </strong></h5>
                       <h5><strong>E-mail: callcenter@rbc.gov.rw</strong></h5>
                     
-                         <h5> Or </h5>
+                         <h5>{{__('customlang.or')}} </h5>
                         
 
                          @foreach($center->centers as $value)
@@ -161,7 +161,7 @@
 
     <center>
     
-        <p style="margin-top:10px"><a href="{{route('process.auth')}}" class="btn btn-success py-3 px-5 btn-pill">       {{__('customlang.restart')}}</a> <button type="submit" class="btn btn-primary py-3 px-5 btn-pill">     {{__('customlang.f_tips')}}   </button></p>
+        <p style="margin-top:10px"><a href="{{route('process.auth')}}" class="btn btn-success py-3 px-5 btn-pill">       {{__('customlang.restart')}}</a> <a href="/" class="btn btn-light py-3 px-5 btn-pill">       {{__('customlang.home')}}</a><button type="submit" class="btn btn-primary py-3 px-5 btn-pill">     {{__('customlang.f_tips')}}   </button></p>
       
        
       </center>   

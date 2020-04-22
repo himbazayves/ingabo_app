@@ -122,4 +122,7 @@ wabimenyesha ababishinzwe ku miromgo ikurikira',
 'select_district'=>'Hitamo akarere .......',
 'feedback'=>'Ibisubizo',
 
+'home'=>'Ahabanza',
+
+'or'=>'Cg se',
 ];

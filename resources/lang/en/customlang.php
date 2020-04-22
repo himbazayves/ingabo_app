@@ -122,5 +122,10 @@ can also be reported to medical proffesional ,or as follows:',
 
 
 'feedback'=>'Feedback',
+
+
+'home'=>'Home page',
+
+'or'=>'or',
 ];
 
