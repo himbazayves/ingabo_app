@@ -486,12 +486,15 @@ text-align: center;
   
       $(document).on('click', '.add', function(){
     var html = '';
-    html += '<tr>';
-    html += '<input placeholder="amazina"  type="hidden" class="form-control form-control-sm" name="loop[]"  />';
-    html += '<td><input placeholder="amazina"  type="text" class="form-control form-control-sm" name="name[]"  /></td>';
-    html += '<td><input placeholder="email"  type="text" name="email[]" class="form-control form-control-sm" /></td>';
-    html += '<td><input type="text" placeholder="telephone"  name="tel[]" class="form-control form-control-sm" /></td>';
-    html += '<td><button type="button" name="remove" class="btn btn-danger btn-sm remove"><i class="fa fa-minus"></i></button></td></tr>';
+    html +='<tr>'
+      html +='<td>'
+    html += ' <input class="col-md-12" placeholder="amazina"  type="hidden" class="form-control name="loop[]"  />';
+    html += '<div class="form-group"> <input placeholder="amazina"  type="text" class="form-control form-control-sm" name="name[]"  /> </div>';
+    html += '<div class="form-group"> <input placeholder="email"  type="text" name="email[]" class="form-control " /> </div>';
+    html += '<div class="form-group"> <input type="text" placeholder="telephone"  name="tel[]" class="form-control " /> </div>';
+    html += '<div class="form-group"> <button type="button" name="remove" class="btn btn-danger btn-sm remove"><i class="fa fa-minus"></i></button></div></td></tr>';
+   
+   
     $('#item_table').append(html);
    });
    

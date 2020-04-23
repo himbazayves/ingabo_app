@@ -110,21 +110,33 @@
                      <p> {{__('customlang.f_p')}} :</p>
 
 
-                     <p>  <h5><strong>Phone: 114</strong> </h5>
-                      <h5><strong>WhatsAPP: +250  788 202 080 </strong></h5>
-                      <h5><strong>E-mail: callcenter@rbc.gov.rw</strong></h5>
-                    
+                     <p>  
+                       <table>
+                         <tr>
+                      <td> <h5><strong>Phone:</strong></h5>  </td> <td> <h5><strong> 114</strong> </h5></td>
+
+                         </tr>
+                        <tr>
+                          <td><h5><strong>WhatsAPP: </strong></h5>  </td> <td> <h5><strong>+250  788 202 080 </strong> </h5></td>
+
+                        </tr>
+
+                        <tr>
+                          <td><h5><strong>E-mail: </strong></h5>  </td> <td> <h5><strong>callcenter@rbc.gov.rw</strong></h5></td>
+
+                        </tr>
+                       </table>
                          <h5>{{__('customlang.or')}} </h5>
                         
-
-                         @foreach($center->centers as $value)
-                         <h5> 
+                         <table>
                          
-                          <strong> {{$value->name}} :{{$value->contact}} </strong>
-
-                         </h5>
-                    
+                         @foreach($center->centers as $value)
+                         <tr>
+                        <td> <h5><strong> {{$value->name}}  </h5></strong></td> <td><h5><strong> :{{$value->contact}} </strong></h5> </td>
+                        </tr>
+                        
                     @endforeach
+                  </table>
                     </p>
                     
 

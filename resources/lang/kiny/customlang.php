@@ -66,11 +66,11 @@ Hitamo ibimenyetso byose waba ufite",
 
 
 't_title'=>"Subiza ibibazo bijyanye ningendo bikurikira",
-'t_p1'=>"Mwaba muheruka mu gihugu kirimo COVID-19 mu mezi 14 ashize ",
+'t_p1'=>" Muheruka mu gihugu kirimo COVID-19 mu mezi atatu ashize ",
 't_p2'=>"Mubo mwajyanye cg mwagarukanye haba hari umuntu muzi? ",
 
-'t_p3'=>"hari abo mubana? ",
-'t_country'=>"Shiramoicyo gihugu hano",
+'t_p3'=>"Hari abo mubana? ",
+'t_country'=>"Hitamo igihugu/ibihugu ....",
 
 'yes'=>"YEGO",
 'no'=>'OYA',
@@ -97,7 +97,7 @@ Hitamo ibimenyetso byose waba ufite",
 
 'f_title'=>"Ibisubizo",
 'f_normal'=>"Ntakibazo ufite",
-'f_severe'=>"Wihutire kujya kwa muganga",
+'f_severe'=>"Wihutire guhamagara imwe muri numero ziri hasi hano",
 'f_center'=>"Ikigo",
 'f_contact'=>"Telefone",
 'restart'=>'Tangira',
